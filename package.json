@@ -1,0 +1,39 @@
+{
+  "name": "wtf-gulu",
+  "version": "0.1.0",
+  "description": "wtf",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack serve --open --config ./build/webpack.config.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laoyangc/wtf-gulu.git"
+  },
+  "keywords": [
+    "vue3"
+  ],
+  "author": "laoyang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laoyangc/wtf-gulu/issues"
+  },
+  "homepage": "https://github.com/laoyangc/wtf-gulu#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "sass": "^1.38.1",
+    "sass-loader": "^12.1.0",
+    "vue-loader": "^16.4.0",
+    "vue-style-loader": "^4.1.3",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0"
+  },
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.2.6",
+    "vue": "^3.2.6"
+  }
+}
